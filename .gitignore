@@ -1,6 +1,4 @@
-*
-!.gitignore
-!LICENSE
-!README.md
-!_zgen
-!zgen.zsh
+.zgen
+!.zgen/setup.zsh
+!.zgen/_zgen
+!.zgen/zgen.zsh
