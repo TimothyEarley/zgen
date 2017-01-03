@@ -58,7 +58,7 @@ if ! zgen saved; then
   # zgen load StackExchange/blackbox
 
   # Load some oh-my-zsh plugins
-  # zgen oh-my-zsh plugins/pip
+  zgen oh-my-zsh plugins/pip
   zgen oh-my-zsh plugins/sudo
   # zgen oh-my-zsh plugins/aws
   # zgen oh-my-zsh plugins/chruby
@@ -70,6 +70,7 @@ if ! zgen saved; then
   # zgen oh-my-zsh plugins/screen
   # zgen oh-my-zsh plugins/vagrant
   zgen oh-my-zsh plugins/gradle
+  zgen oh-my-zsh plugins/rails
 
   # A set of shell functions to make it easy to install small apps and
   # utilities distributed with pip.
